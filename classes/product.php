@@ -2,12 +2,14 @@
 
 	class Product{
 		public $name;
+		public $brand;
 		private $price;
 		private $discount;
 		public $img;
 
-		public function __construct($constrName, $constrPrice, $constrDiscount, $constrImg) {
+		public function __construct($constrName, $constrBrand, $constrPrice, $constrDiscount, $constrImg) {
 			$this->name = $constrName;
+			$this->brand = $constrBrand;
 			$this->price = $constrPrice;
 			$this->discount = $constrDiscount;
 			$this->img = $constrImg;
@@ -21,10 +23,8 @@
 		{
 			return $this->price;
 		}
+		
 	}
 
-	$prod1 = new Product("Iphone", 1200, 10, "https://www.pcportatili.it/wp-content/uploads/2020/10/iphone-12-pro.jpg");
-
-	// var_dump($prod1);
 
 ?>
