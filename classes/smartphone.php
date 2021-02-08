@@ -31,7 +31,7 @@
 
 	$smart1 = new Smartphone("Iphone", 1200, 10, "https://www.pcportatili.it/wp-content/uploads/2020/10/iphone-12-pro.jpg", "Ios");
 
-	$smart2 = new Smartphone("OnePlus", 800, 10, "https://www.pcportatili.it/wp-content/uploads/2020/10/iphone-12-pro.jpg", "Android");
+	$smart2 = new Smartphone("OnePlus", 800, 10, "https://www.tomshw.it/images/images/2020/10/oneplus-8t-118481.jpg", "Android");
 	
 
 ?>
